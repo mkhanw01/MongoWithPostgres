@@ -1,0 +1,335 @@
+[]2017-10-21T08:04:30,195Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T08:04:30,197Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T08:04:31,033Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+[]2017-10-21T08:04:31,038Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=924034}
+[]2017-10-21T08:04:31,042Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T08:07:45,704Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T08:07:45,707Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T08:07:45,966Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T08:07:49,295Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T08:07:49,296Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T08:07:49,705Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+[]2017-10-21T08:07:49,710Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=916283}
+[]2017-10-21T08:07:49,713Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T08:07:53,431Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:07:53,452Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:07:53,489Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T08:10:19,212Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T08:10:19,214Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T08:10:19,506Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T08:10:22,229Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T08:10:22,229Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T08:10:22,666Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:3}] to localhost:27017
+[]2017-10-21T08:10:22,669Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1277435}
+[]2017-10-21T08:10:22,672Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T08:10:24,992Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:10:25,009Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:10:25,041Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T08:12:44,924Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T08:12:44,927Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T08:12:45,155Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T08:12:48,403Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T08:12:48,403Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T08:12:48,798Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:4}] to localhost:27017
+[]2017-10-21T08:12:48,803Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=890620}
+[]2017-10-21T08:12:48,806Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T08:12:52,078Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:12:52,100Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:12:52,128Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T08:13:25,848Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]2017-10-21T08:48:04,075Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T08:48:04,078Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T08:48:04,277Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T08:48:08,194Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T08:48:08,195Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T08:48:08,652Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:5}] to localhost:27017
+[]2017-10-21T08:48:08,655Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=839445}
+[]2017-10-21T08:48:08,657Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T08:48:11,919Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:48:11,938Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:48:11,964Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T08:48:33,915Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]2017-10-21T08:50:42,241Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T08:50:42,248Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T08:50:42,427Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T08:50:45,332Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T08:50:45,333Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T08:50:45,693Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:6}] to localhost:27017
+[]2017-10-21T08:50:45,696Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1047641}
+[]2017-10-21T08:50:45,698Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T08:50:48,734Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:50:48,752Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:50:48,776Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T08:50:56,915Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]2017-10-21T08:55:44,562Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T08:55:44,565Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T08:55:44,761Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T08:55:47,914Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T08:55:47,914Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T08:55:48,383Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:7}] to localhost:27017
+[]2017-10-21T08:55:48,386Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=908083}
+[]2017-10-21T08:55:48,389Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T08:55:51,609Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:55:51,628Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:55:51,655Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T08:55:57,868Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]2017-10-21T08:58:05,618Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T08:58:05,620Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T08:58:05,777Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T08:58:08,045Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T08:58:08,045Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T08:58:08,421Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:8}] to localhost:27017
+[]2017-10-21T08:58:08,424Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1021950}
+[]2017-10-21T08:58:08,426Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T08:58:10,595Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:58:10,613Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T08:58:10,642Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T08:58:33,918Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]2017-10-21T10:07:55,814Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T10:07:55,818Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T10:07:56,018Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T10:07:58,558Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T10:07:58,558Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T10:07:58,934Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:9}] to localhost:27017
+[]2017-10-21T10:07:58,937Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=860892}
+[]2017-10-21T10:07:58,938Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T10:08:01,487Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:08:01,504Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:08:01,530Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T10:09:46,538Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]2017-10-21T10:23:39,920Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T10:23:39,922Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T10:23:40,106Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T10:23:42,404Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T10:23:42,405Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T10:23:42,749Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:10}] to localhost:27017
+[]2017-10-21T10:23:42,752Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=938764}
+[]2017-10-21T10:23:42,754Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T10:23:45,008Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:23:45,025Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:23:45,053Z ERROR o.a.coyote.http11.Http11NioProtocol - Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.example.data.combine.CombineApplication.main(CombineApplication.java:29)
+[]2017-10-21T10:23:45,055Z ERROR o.a.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.example.data.combine.CombineApplication.main(CombineApplication.java:29)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 14 common frames omitted
+[]2017-10-21T10:23:45,068Z INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:23:45,069Z INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[]2017-10-21T10:23:45,081Z INFO  o.a.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[]2017-10-21T10:23:45,082Z INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:23:45,082Z INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:24:44,956Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T10:24:44,958Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T10:24:45,125Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T10:24:47,463Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T10:24:47,463Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T10:24:47,819Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:11}] to localhost:27017
+[]2017-10-21T10:24:47,823Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=844780}
+[]2017-10-21T10:24:47,825Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T10:24:49,998Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:24:50,017Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:24:50,050Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T10:25:19,445Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]2017-10-21T10:29:54,948Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T10:29:54,953Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T10:29:55,138Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T10:29:57,798Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T10:29:57,798Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T10:29:58,189Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:12}] to localhost:27017
+[]2017-10-21T10:29:58,193Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=869334}
+[]2017-10-21T10:29:58,195Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T10:30:00,919Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:30:00,938Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:30:00,968Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T10:31:08,840Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]2017-10-21T10:36:01,378Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T10:36:01,381Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T10:36:01,543Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T10:36:03,830Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T10:36:03,831Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T10:36:04,193Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:13}] to localhost:27017
+[]2017-10-21T10:36:04,196Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=840347}
+[]2017-10-21T10:36:04,198Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T10:36:06,270Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:36:06,289Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:36:06,323Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T10:36:16,240Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]2017-10-21T10:36:16,564Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:14}] to localhost:27017
+[]2017-10-21T10:39:13,119Z INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:14}] to localhost:27017 because the pool has been closed.
+[]2017-10-21T10:39:40,043Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T10:39:40,050Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T10:39:40,211Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T10:39:42,520Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T10:39:42,521Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T10:39:42,916Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:15}] to localhost:27017
+[]2017-10-21T10:39:42,919Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=881893}
+[]2017-10-21T10:39:42,921Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T10:39:45,007Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:39:45,032Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:39:45,067Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T10:39:54,585Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]2017-10-21T10:39:54,832Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:16}] to localhost:27017
+[]2017-10-21T10:40:49,736Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T10:40:49,741Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T10:40:49,935Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T10:40:52,921Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T10:40:52,922Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T10:40:53,332Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:17}] to localhost:27017
+[]2017-10-21T10:40:53,338Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=937956}
+[]2017-10-21T10:40:53,343Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T10:40:56,490Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:40:56,509Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:40:56,530Z ERROR o.a.coyote.http11.Http11NioProtocol - Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.example.data.combine.CombineApplication.main(CombineApplication.java:29)
+[]2017-10-21T10:40:56,533Z ERROR o.a.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.example.data.combine.CombineApplication.main(CombineApplication.java:29)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 14 common frames omitted
+[]2017-10-21T10:40:56,548Z INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:40:56,549Z INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[]2017-10-21T10:40:56,564Z INFO  o.a.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[]2017-10-21T10:40:56,565Z INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:40:56,565Z INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:41:05,087Z INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:16}] to localhost:27017 because the pool has been closed.
+[]2017-10-21T10:41:47,077Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T10:41:47,080Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T10:41:47,279Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T10:41:50,245Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T10:41:50,246Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T10:41:50,687Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:18}] to localhost:27017
+[]2017-10-21T10:41:50,691Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=924174}
+[]2017-10-21T10:41:50,693Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T10:41:53,889Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:41:53,908Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T10:41:53,940Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T10:42:06,984Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]2017-10-21T10:42:11,820Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:19}] to localhost:27017
+[]2017-10-21T10:43:02,467Z INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:19}] to localhost:27017 because the pool has been closed.
+[]2017-10-21T11:07:27,312Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T11:07:27,314Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T11:07:27,501Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T11:07:30,448Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T11:07:30,449Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T11:07:30,779Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:20}] to localhost:27017
+[]2017-10-21T11:07:30,784Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=940780}
+[]2017-10-21T11:07:30,789Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T11:07:33,761Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T11:07:33,779Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T11:07:33,805Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T11:09:19,484Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]2017-10-21T11:10:45,869Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:21}] to localhost:27017
+[]2017-10-21T11:11:03,087Z INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:21}] to localhost:27017 because the pool has been closed.
+[]2017-10-21T11:32:32,512Z INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[]2017-10-21T11:32:32,516Z INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+[]2017-10-21T11:32:32,677Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[]2017-10-21T11:32:35,118Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[]2017-10-21T11:32:35,119Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+[]2017-10-21T11:32:35,466Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:23}] to localhost:27017
+[]2017-10-21T11:32:35,469Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=852796}
+[]2017-10-21T11:32:35,472Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+[]2017-10-21T11:32:37,571Z INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T11:32:37,588Z INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[]2017-10-21T11:32:37,625Z INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[]2017-10-21T11:33:52,116Z INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]2017-10-21T11:33:52,272Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:24}] to localhost:27017
+[]2017-10-21T11:40:36,425Z INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:24}] to localhost:27017 because the pool has been closed.
