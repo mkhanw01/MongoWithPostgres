@@ -1,5 +1,0 @@
-[]2017-10-20T17:49:57,522Z INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
-[]2017-10-20T17:49:57,524Z INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
-[]2017-10-20T17:49:57,840Z INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:18}] to localhost:27017
-[]2017-10-20T17:49:57,843Z INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 0]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=913024}
-[]2017-10-20T17:49:57,845Z INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
