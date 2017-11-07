@@ -38,40 +38,28 @@ public class MongoUserServiceImpl implements MongoUserService {
   }
 
   @Override
-  public void saveMongoUser(MongoUser mongoUser) {
+  public boolean saveMongoUser(MongoUser mongoUser) {
+    boolean success = false;
     LOG.info("call mongo save service mongoUser : {}", mongoUser.toString());
     try {
-      this.mongoUserRepository.save(mongoUser);
+        this.mongoUserRepository.save(mongoUser);
+      success = true;
       LOG.info("save SuccessFull mongoUser : {}", mongoUser);
     } catch (Exception e) {
       LOG.error("failed to save mongoUser : {}", mongoUser, e);
     }
-  }
-
-  @Override
-  public String converter(MongoUser mongoUser) throws JsonProcessingException {
-    Response response = new Response();
-    response.setName(mongoUser.getName());
-    response.setId(mongoUser.getId());
-    response.setAge(mongoUser.getAge());
-    response.setAddress(mongoUser.getAddress());
-    ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
-    String json = ow.writeValueAsString(response);
-    LOG.info("return  value  json : {}",json);
-    return json;
+    return success;
   }
 
   @Override
   public Boolean convertAndSaveUser(PostgresUser postgresUser) {
     LOG.info("convertAndSaveUser with data: {}",postgresUser);
-    Response response = new Response();
     MongoUser mongoUser = new MongoUser();
     try {
-      BeanUtils.copyProperties(postgresUser,response);
-      mongoUser.setId(response.getId());
-      mongoUser.setAddress(response.getAddress());
-      mongoUser.setAge(response.getAge());
-      mongoUser.setName(response.getName());
+      mongoUser.setId(postgresUser.getId());
+      mongoUser.setAddress(postgresUser.getAddress());
+      mongoUser.setAge(postgresUser.getAge());
+      mongoUser.setName(postgresUser.getName());
     }catch (Exception e){
       LOG.error("data is not converted in BeanUtils data : {}",postgresUser);
     }

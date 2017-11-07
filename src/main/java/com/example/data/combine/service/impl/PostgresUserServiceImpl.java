@@ -36,14 +36,17 @@ public class PostgresUserServiceImpl implements PostgresUserService {
   }
 
   @Override
-  public void savePostgresUser(PostgresUser postgresUser) {
+  public Boolean savePostgresUser(PostgresUser postgresUser) {
+    Boolean success = false;
     try {
       LOG.info("saving postgresUser : {}", postgresUser);
       this.postgresUserRepository.save(postgresUser);
-      LOG.info("SucessFully saved postgresUser : {}", postgresUser);
+      success = true;
+      LOG.info("Successfully saved postgresUser : {}", postgresUser);
     } catch (Exception e) {
-      LOG.error("Fialed to save postgresUser : {}", postgresUser, e);
+      LOG.error("Failed to save postgresUser : {}", postgresUser, e);
     }
+    return success;
   }
 
   @Override

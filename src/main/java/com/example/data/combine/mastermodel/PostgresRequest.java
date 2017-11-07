@@ -1,26 +1,32 @@
 package com.example.data.combine.mastermodel;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import net.karneim.pojobuilder.GeneratePojoBuilder;
 
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
 /**
  * Created by khan on 10/20/17.
  */
+@GeneratePojoBuilder
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Request implements Serializable{
+public class PostgresRequest implements Serializable{
 
   private static final long serialVersionUID = 342152180148459236L;
 
+  @NotNull
   private String name;
+  @NotNull
   private String address;
+  @NotNull
   private String age;
 
-  public Request() {
+  public PostgresRequest() {
     // do nothing
   }
 
-  public Request(String name, String address, String age) {
+  public PostgresRequest(String name, String address, String age) {
 
     this.name = name;
     this.address = address;
@@ -54,7 +60,7 @@ public class Request implements Serializable{
 
   @Override
   public String toString() {
-    final StringBuilder sb = new StringBuilder("Request{");
+    final StringBuilder sb = new StringBuilder("PostgresRequest{");
     sb.append(", name='").append(name).append('\'');
     sb.append(", address='").append(address).append('\'');
     sb.append(", age='").append(age).append('\'');

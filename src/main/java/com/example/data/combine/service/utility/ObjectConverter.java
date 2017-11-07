@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 
 /*public class ObjectConverter {
  Class<> convertToJson(Object o);
-  ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
+  ObjectWriter ow = new ObjectHelper().writer().withDefaultPrettyPrinter();
   String json = ow.writeValueAsString(object);
 
 }

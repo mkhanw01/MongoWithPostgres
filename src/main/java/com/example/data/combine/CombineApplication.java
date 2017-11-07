@@ -12,6 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.data.mongodb.config.EnableMongoAuditing;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @SpringBootApplication(scanBasePackages = "com.example.data.combine")
@@ -22,6 +23,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @EnableMongoRepositories(basePackages = {"com.example.data.combine.mongo"})
 @EnableJpaAuditing
 @EnableMongoAuditing
+@EnableAsync
 public class CombineApplication {
 	public static void main(String[] args) {
 		final Logger LOG = LoggerFactory.getLogger(CombineApplication.class);

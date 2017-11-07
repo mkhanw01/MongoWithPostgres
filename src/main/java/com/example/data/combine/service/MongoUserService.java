@@ -10,8 +10,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
  */
 public interface MongoUserService {
   MongoUser findUserByName(String name);
-  void saveMongoUser(MongoUser mongoUser);
-  String converter(MongoUser mongoUser) throws JsonProcessingException;
-
+  boolean saveMongoUser(MongoUser mongoUser);
   Boolean convertAndSaveUser(PostgresUser postgresUser);
 }
