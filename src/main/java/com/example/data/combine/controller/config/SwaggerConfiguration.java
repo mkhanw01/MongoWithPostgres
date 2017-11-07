@@ -36,7 +36,7 @@ public class SwaggerConfiguration {
                 .modelRef(new ModelRef("string")).required(true).defaultValue("10001")
                 .description("client's id").build(),
             new ParameterBuilder().name("channelId").parameterType("header")
-                .modelRef(new ModelRef("string")).required(true).defaultValue("voucher-web")
+                .modelRef(new ModelRef("string")).required(true).defaultValue("combine-web")
                 .description("client's channel id").build(),
             new ParameterBuilder().name("requestId").parameterType("header")
                 .modelRef(new ModelRef("string")).required(true).defaultValue("RANDOM")
