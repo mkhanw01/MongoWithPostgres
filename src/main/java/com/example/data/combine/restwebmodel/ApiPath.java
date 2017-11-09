@@ -9,17 +9,18 @@ public class ApiPath {
   public static final String API = "/api";
 
   //mongo api
-
   public static final String MONGO = API+"/mongo";
   public static final String MONGO_USER = "/mongoUser";
   public static final String FIND_USER_BY_NAME = "/findByName";
   public static final String MIGRATE_MONGO ="/migrateMongo";
 
   // postgres api
-
   public static final String POSTGRES = API+"/postgres";
   public static final String CREATE = "/create";
   public static final String FIND = "/find";
   public static final String MIGRATE_POSTGRES = "/migratePostgres";
 
+  // cache api
+public static final String CACHE="cache";
+public static final String FLUSH_DB ="/flushDb";
 }

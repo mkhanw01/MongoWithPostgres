@@ -1,17 +1,14 @@
 package com.example.data.combine.service.impl;
 
-import com.example.data.combine.mastermodel.Response;
+import com.example.data.combine.mastermodel.CacheName;
 import com.example.data.combine.mongo.model.MongoUser;
 import com.example.data.combine.mongo.repository.MongoUserRepository;
 import com.example.data.combine.postgres.model.PostgresUser;
 import com.example.data.combine.service.MongoUserService;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 /**
@@ -26,6 +23,7 @@ public class MongoUserServiceImpl implements MongoUserService {
   private MongoUserRepository mongoUserRepository;
 
   @Override
+  @Cacheable(cacheNames = CacheName.NAME)
   public MongoUser findUserByName(String name) {
     MongoUser mongoUser = null;
     try {
