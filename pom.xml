@@ -26,6 +26,10 @@
 		<spring-data-redis-version>1.7.3.RELEASE</spring-data-redis-version>
 		<jedis-version>2.6.2</jedis-version>
 		<commons-pool2.version>2.0</commons-pool2.version>
+		<maven.project.groupId>${project.groupId}</maven.project.groupId>
+		<maven.project.artifactId>${project.artifactId}</maven.project.artifactId>
+		<maven.project.version>${project.version}</maven.project.version>
+		<maven.build.time>${maven.build.timestamp}</maven.build.time>
 	</properties>
 
 	<dependencies>
