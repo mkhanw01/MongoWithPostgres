@@ -46,7 +46,7 @@ public class MongoController extends BaseController {
       @ApiIgnore @Valid @ModelAttribute MandatoryParameter parameter,
       @RequestBody PostgresRequest postgresRequest) throws Exception {
     LOG.info("saveMongoController with parameter : {}", parameter);
-    MongoUser mongoUser = BeanMapper.map(parameter, MongoUser.class);
+    MongoUser mongoUser = BeanMapper.map(postgresRequest, MongoUser.class);
     boolean success = this.mongoUserService.saveMongoUser(mongoUser);
     return toCombineResponse(success);
   }

@@ -4,7 +4,6 @@ import com.example.data.combine.restwebmodel.ApiPath;
 import com.example.data.combine.restwebmodel.BaseResponse;
 import com.example.data.combine.restwebmodel.MandatoryParameter;
 import com.example.data.combine.service.CacheService;
-import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
