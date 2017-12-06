@@ -75,4 +75,12 @@ public class MongoController extends BaseController {
     return toCombineResponse(responce);
   }
 
+  @PostMapping(value = ApiPath.MONGO_SEND_USER)
+  @ApiOperation(value = "send a user to save")
+  public BaseResponse<Boolean> mongoSendUser(
+      @ApiIgnore @Valid @ModelAttribute MandatoryParameter parameter,
+      @RequestBody PostgresRequest postgresRequest) throws Exception {
+    LOG.info("send user with parameter : {}", parameter);
+    return toCombineResponse(this.mongoUserService.sendUser(postgresRequest,parameter));
+  }
 }

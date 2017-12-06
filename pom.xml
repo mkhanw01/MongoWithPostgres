@@ -25,6 +25,8 @@
 		<springfox-version>2.7.0</springfox-version>
 		<spring-data-redis-version>1.7.3.RELEASE</spring-data-redis-version>
 		<jedis-version>2.6.2</jedis-version>
+		<spring-integration-kafka-version>1.3.0.RELEASE</spring-integration-kafka-version>
+		<spring-integration-java-dsl-version>1.1.2.RELEASE</spring-integration-java-dsl-version>
 		<commons-pool2.version>2.0</commons-pool2.version>
 		<maven.project.groupId>${project.groupId}</maven.project.groupId>
 		<maven.project.artifactId>${project.artifactId}</maven.project.artifactId>
@@ -131,6 +133,28 @@
 			<artifactId>jedis</artifactId>
 			<version>${jedis-version}</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.integration/spring-integration-kafka -->
+		<dependency>
+			<groupId>org.springframework.integration</groupId>
+			<artifactId>spring-integration-kafka</artifactId>
+			<version>${spring-integration-kafka-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.integration</groupId>
+			<artifactId>spring-integration-java-dsl</artifactId>
+			<version>${spring-integration-java-dsl-version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.amqp/spring-rabbit -->
+		<dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-rabbit</artifactId>
+			<version>1.6.2.RELEASE</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
