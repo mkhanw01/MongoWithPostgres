@@ -4,7 +4,6 @@ import com.example.data.combine.controller.handler.DeserializationProblemHandler
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.mongodb.ReadPreference;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -39,5 +38,10 @@ public class BeanConfiguration {
     objectMapper.addHandler(this.deserializationProblemHandler());
     return objectMapper;
   }
+
+
+  /**
+   *
+   */
 
 }
