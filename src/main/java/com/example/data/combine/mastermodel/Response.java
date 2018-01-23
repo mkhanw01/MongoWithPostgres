@@ -2,7 +2,9 @@ package com.example.data.combine.mastermodel;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * Created by khan on 10/20/17.
@@ -15,16 +17,18 @@ public class Response implements Serializable{
   private String name;
   private String address;
   private String age;
+  private Date couponEndDateTime;
 
   public Response() {
     // do nothing
   }
 
-  public Response(String id, String name, String address, String age) {
+  public Response(String id, String name, String address, String age, Date couponEndDateTime) {
     this.id = id;
     this.name = name;
     this.address = address;
     this.age = age;
+    this.couponEndDateTime = couponEndDateTime;
   }
 
   public void setId(String id) {
@@ -59,6 +63,14 @@ public class Response implements Serializable{
     return age;
   }
 
+  public Date getCouponEndDateTime() {
+    return couponEndDateTime;
+  }
+
+  public void setCouponEndDateTime(Date couponEndDateTime) {
+    this.couponEndDateTime = couponEndDateTime;
+  }
+
   @Override
   public String toString() {
     final StringBuilder sb = new StringBuilder("Response{");
@@ -66,6 +78,7 @@ public class Response implements Serializable{
     sb.append(", name='").append(name).append('\'');
     sb.append(", address='").append(address).append('\'');
     sb.append(", age='").append(age).append('\'');
+    sb.append(", couponEndDateTime=").append(couponEndDateTime);
     sb.append('}');
     return sb.toString();
   }

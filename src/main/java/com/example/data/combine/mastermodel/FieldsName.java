@@ -11,4 +11,5 @@ public final class FieldsName {
   public static final String PRIDUCT_NAME = "priductName";
   public static final String PRICE = "price";
   public static final String STOCK = "stock";
+  public static final String COUPON_END_DATE = "couponEndDate";
 }

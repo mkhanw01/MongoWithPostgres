@@ -5,6 +5,8 @@ import com.example.data.combine.mongo.model.MongoUser;
 import com.example.data.combine.postgres.model.PostgresUser;
 import com.example.data.combine.restwebmodel.MandatoryParameter;
 
+import java.util.List;
+
 /**
  * Created by khan on 10/20/17.
  */
@@ -18,4 +20,6 @@ public interface MongoUserService {
   Boolean sendUser(PostgresRequest request, MandatoryParameter parameter);
 
   void processUser(MongoUser mongoUser);
+
+  List<MongoUser> findByStoreIdAndCurrentDate(String storeId);
 }

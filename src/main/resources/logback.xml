@@ -75,6 +75,20 @@
         </encoder>
     </appender>
 
+    <appender name="kafka" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${catalina.home:-.}/logs/x/combine/kafka.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${catalina.home:-.}/logs/x/archive/combine/kafka.%d{yyyy-MM-dd}.old.log
+            </fileNamePattern>
+        </rollingPolicy>
+        <encoder>
+            <pattern>
+                [%X{key}]%date{"yyyy-MM-dd'T'HH:mm:ss,SSSXXX", UTC} %-5level %logger{35} - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+
 
     <logger name="org.springframework" level="warn" additivity="false">
         <appender-ref ref="spring"/>
@@ -104,6 +118,10 @@
 
     <logger name="com.example.data.combine" level="INFO" additivity="false">
         <appender-ref ref="app"/>
+    </logger>
+
+    <logger name="org.springframework.kafka" level="INFO" additivity="false">
+        <appender-ref ref="kafka"/>
     </logger>
 
     <root level="INFO">

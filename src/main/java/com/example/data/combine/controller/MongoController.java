@@ -1,9 +1,11 @@
 package com.example.data.combine.controller;
 
+import com.example.data.combine.eventmodel.AddUserEventModel;
 import com.example.data.combine.mastermodel.BeanMapper;
 import com.example.data.combine.mastermodel.PostgresRequest;
 import com.example.data.combine.mastermodel.Response;
 import com.example.data.combine.mongo.model.MongoUser;
+import com.example.data.combine.publisher.AddUserPublished;
 import com.example.data.combine.restwebmodel.ApiPath;
 import com.example.data.combine.restwebmodel.BaseResponse;
 import com.example.data.combine.restwebmodel.MandatoryParameter;
@@ -24,6 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 import springfox.documentation.annotations.ApiIgnore;
 
 import javax.validation.Valid;
+import java.util.List;
 
 /**
  * Created by khan on 10/20/17.
@@ -38,7 +41,10 @@ public class MongoController extends BaseController {
   @Autowired
   private MongoUserService mongoUserService;
   @Autowired
-  PostgresUserService postgresUserService;
+  private PostgresUserService postgresUserService;
+
+  @Autowired
+  private AddUserPublished addUserPublished;
 
   @PostMapping(value = ApiPath.MONGO_USER)
   @ApiOperation(value = "crate new user")
@@ -62,6 +68,17 @@ public class MongoController extends BaseController {
     return toCombineResponse(response);
   }
 
+  @GetMapping(value = ApiPath.FIND_BY_CURRENT_DATE)
+  @ApiOperation(value = "find couponExpirydate")
+  public BaseResponse<List<Response>> findCurrentDate(
+      @ApiIgnore @Valid @ModelAttribute MandatoryParameter parameter) throws Exception {
+    LOG.info("findName with parameter : {}", parameter);
+    List<MongoUser> mongoUser =
+        this.mongoUserService.findByStoreIdAndCurrentDate(parameter.getStoreId());
+    List<Response> response = BeanMapper.mapAsList(mongoUser, Response.class);
+    return toCombineResponse(response);
+  }
+
   @PostMapping(value = ApiPath.MIGRATE_MONGO)
   @ApiOperation(value = "fetch from mongo and save in postgres")
   public BaseResponse<Boolean> findAndSaveUserInPostgres(@RequestParam String name)
@@ -75,12 +92,22 @@ public class MongoController extends BaseController {
     return toCombineResponse(responce);
   }
 
-  @PostMapping(value = ApiPath.MONGO_SEND_USER)
-  @ApiOperation(value = "send a user to save")
+  @PostMapping(value = ApiPath.MONGO_SEND_USER_BY_MQ)
+  @ApiOperation(value = "send a user by rabbitMq to save in db")
   public BaseResponse<Boolean> mongoSendUser(
       @ApiIgnore @Valid @ModelAttribute MandatoryParameter parameter,
       @RequestBody PostgresRequest postgresRequest) throws Exception {
     LOG.info("send user with parameter : {}", parameter);
     return toCombineResponse(this.mongoUserService.sendUser(postgresRequest,parameter));
+  }
+
+  @PostMapping(value = ApiPath.SEND_USER_BY_KAFKA)
+  @ApiOperation(value = " send a user by kafka and save in db")
+  public BaseResponse<Boolean> addUserByKafka(
+      @ApiIgnore @Valid @ModelAttribute MandatoryParameter parameter,
+      @RequestBody AddUserEventModel model) throws Exception {
+    LOG.info("# send user by kafka model : {} with parameter", model, parameter);
+    this.addUserPublished.publish(model);
+    return toCombineResponse(true);
   }
 }

@@ -13,7 +13,9 @@ public class ApiPath {
   public static final String MONGO_USER = "/mongoUser";
   public static final String FIND_USER_BY_NAME = "/findByName";
   public static final String MIGRATE_MONGO = "/migrateMongo";
-  public static final String MONGO_SEND_USER = "/mongoSendUser";
+  public static final String MONGO_SEND_USER_BY_MQ = "/mongoSendUserByMq";
+  public static final String FIND_BY_CURRENT_DATE ="/findByCurrentDate";
+
 
   // postgres api
   public static final String POSTGRES = API + "/postgres";
@@ -33,4 +35,5 @@ public class ApiPath {
   public static final String ADD_INVENTORY = "/addInventory";
   public static final String FIND_ALL = "/find-all";
   public static final String FIND_BY_PRODUCT_NAME = "findByProductName";
+  public static final String SEND_USER_BY_KAFKA = "SendUserByKafka";
 }

@@ -1,5 +1,6 @@
 package com.example.data.combine.mongo.model;
 
+import com.example.data.combine.mastermodel.FieldsName;
 import org.hibernate.annotations.GenericGenerator;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
@@ -8,6 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 
 import javax.persistence.GeneratedValue;
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * Created by khan on 10/20/17.
@@ -33,6 +35,9 @@ public class MongoUser implements Serializable{
   private String address;
   @Field(value = AGE)
   private String age;
+
+  @Field(value = FieldsName.COUPON_END_DATE)
+  private Date couponEndDateTime;
 
   public MongoUser() {
     // do nothing
@@ -70,6 +75,14 @@ public class MongoUser implements Serializable{
     this.age = age;
   }
 
+  public Date getCouponEndDateTime() {
+    return couponEndDateTime;
+  }
+
+  public void setCouponEndDateTime(Date couponEndDateTime) {
+    this.couponEndDateTime = couponEndDateTime;
+  }
+
   @Override
   public String toString() {
     final StringBuilder sb = new StringBuilder("MongoUser{");
@@ -77,6 +90,7 @@ public class MongoUser implements Serializable{
     sb.append(", name='").append(name).append('\'');
     sb.append(", address='").append(address).append('\'');
     sb.append(", age='").append(age).append('\'');
+    sb.append(", couponEndDateTime=").append(couponEndDateTime);
     sb.append('}');
     return sb.toString();
   }
