@@ -96,7 +96,7 @@ public class BaseResponse<T> implements Serializable {
   }
 
   /**
-   * Convert from VoucherBaseResponse to Spring Response Entity
+   * Convert from BaseResponse to Spring Response Entity
    *
    * @return Spring Response Entity
    */
